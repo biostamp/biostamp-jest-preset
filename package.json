@@ -1,0 +1,26 @@
+{
+  "name": "@biostamp/jest-preset",
+  "version": "0.1.0",
+  "repository": "biostamp/biostamp-jest-preset",
+  "author": {
+    "name": "Elon Salfati",
+    "email": "elon@biostamp.io",
+    "url": "https://biostamp.io"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jest",
+    "mongo",
+    "redis",
+    "jest-preset",
+    "jest-preset-biostamp"
+  ],
+  "dependencies": {
+    "@shelf/jest-mongodb": "^2.1.0",
+    "jest-environment-node": "^27.3.1",
+    "jest-redis": "^0.1.0"
+  }
+}
